@@ -1,0 +1,29 @@
+﻿@model BuggyWeb.Models.SkateModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Spawn Page";
+}
+
+<h1 class="title">Skaters</h1>
+
+<!-- ko with: model -->
+<div class="panel-body" style="width:700px;padding-bottom:50px">
+    <table id='knGrid' class='NessGrid' width='100%' cellspacing='1' style="margin-bottom:20px">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: skaters">
+            <tr>
+                <td data-bind="text: id"></td>
+                <td data-bind="text: name"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!-- /ko -->
+
+<script type="text/javascript" src="~/Scripts/App/app.main.js"></script>

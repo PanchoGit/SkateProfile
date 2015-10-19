@@ -1,0 +1,72 @@
+.NessGrid
+{
+	background-color:#ced6e0;
+	border:solid 1px #efefef;
+	border-top:solid 1px #edf0f3;
+	border-left:solid 1px #e7ebef;
+	border-right:solid 1px #919498;
+	border-bottom:solid 1px #636568;
+	border-collapse: collapse
+	table-layout:fixed;
+}
+.NessGrid th {
+	font-weight:bold;
+	color:#35597B;
+	background-image: url(i/th_background.gif);
+	background-repeat:repeat-x;
+	height:30px;
+	text-align:left;
+	padding-left:5px;
+}
+.NessGrid th img {
+	float:right;
+	vertical-align:top;
+	padding-left:20px;
+	display:none;
+}
+.NessGrid th.nessTHeadID {
+	font-weight:bold;
+	text-align:center;
+}
+.NessGrid th.nessTHOrder {
+	cursor:hand;
+}
+.NessGrid td {
+	font-weight:normal;
+	color:#101010;
+	border: solid 0px #000000;
+	border-top:solid 1px #efefef;
+	border-left:solid 1px #efefef;
+	border-right:solid 1px #DDDDDD;
+	border-bottom:solid 1px #DDDDDD;
+	height:28px;
+	padding:2px 2px 2px 2px;
+	cursor: pointer;
+}
+.NessGrid td.nessRowOdd  {
+	background: #cedee9;
+}
+.NessGrid td.nessRowEven {
+	background: #dfebf4;
+}
+.NessGrid td.nessColID {
+	font-weight:bold;
+	text-align:center;
+	background: #eaebdb;
+}
+.NessGrid tr.nessRowOver, .NessGrid td.nessRowOver, .NessGrid td.nessColIDOver {
+	background-image: url(i/th_background_light.gif);
+	color:#ffffff;
+}
+.NessGrid td.nessRowSelek {
+	background-image: url(i/th_background_dark.gif);
+	background-repeat:repeat-x;
+	background-color: #3492c6;
+	color:#dfebf4;
+}
+.NessGrid th.nessColSelek {
+	color:#ffffff !important; 
+}
+.NessGrid th.nessColSelek img {
+	display:inline !important; 
+}

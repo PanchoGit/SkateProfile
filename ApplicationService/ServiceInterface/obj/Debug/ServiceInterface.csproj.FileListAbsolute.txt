@@ -1,0 +1,7 @@
+C:\Pancho\Projects\Buggy\ApplicationService\ServiceInterface\bin\Debug\ServiceInterface.dll
+C:\Pancho\Projects\Buggy\ApplicationService\ServiceInterface\bin\Debug\ServiceInterface.pdb
+C:\Pancho\Projects\Buggy\ApplicationService\ServiceInterface\bin\Debug\DataModel.dll
+C:\Pancho\Projects\Buggy\ApplicationService\ServiceInterface\bin\Debug\DataModel.pdb
+C:\Pancho\Projects\Buggy\ApplicationService\ServiceInterface\obj\Debug\ServiceInterface.csprojResolveAssemblyReference.cache
+C:\Pancho\Projects\Buggy\ApplicationService\ServiceInterface\obj\Debug\ServiceInterface.dll
+C:\Pancho\Projects\Buggy\ApplicationService\ServiceInterface\obj\Debug\ServiceInterface.pdb

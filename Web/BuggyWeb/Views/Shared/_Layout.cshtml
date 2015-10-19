@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/underscore")
+    <script type="text/javascript" src="~/Scripts/Common/inc.scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="~/Scripts/Common/app.style.css" />
+
+    <script src="~/Scripts/Common/gridNess.js"></script>
+    <link href="~/Scripts/Common/gridNess.css" rel="stylesheet" type="text/css">
+</head>
+<body style="overflow-x:hidden">
+
+    <div id="waitDIV" class="statusBar wait statusText" align="center"><img src="~/Scripts/Common/i/indicator.gif" width="16" height="16">Espere por favor...</div>
+    <div id="contentDIV" style="position:absolute;width:100%;height:50%;left:0px;top:0px;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px" align="center">
+
+        <h2 class="mainTitle">@ViewBag.Title</h2>
+
+        @RenderBody()
+
+    </div>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

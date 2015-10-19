@@ -1,0 +1,5 @@
+C:\Pancho\Projects\Buggy\ApplicationData\DataModel\bin\Debug\DataModel.dll
+C:\Pancho\Projects\Buggy\ApplicationData\DataModel\bin\Debug\DataModel.pdb
+C:\Pancho\Projects\Buggy\ApplicationData\DataModel\obj\Debug\DataModel.csprojResolveAssemblyReference.cache
+C:\Pancho\Projects\Buggy\ApplicationData\DataModel\obj\Debug\DataModel.dll
+C:\Pancho\Projects\Buggy\ApplicationData\DataModel\obj\Debug\DataModel.pdb
