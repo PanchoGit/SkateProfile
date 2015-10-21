@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
 
-using ApplicationService;
-
 using ServiceInterface;
 
 namespace BuggyWeb.Controllers.Api
@@ -10,10 +8,6 @@ namespace BuggyWeb.Controllers.Api
     public class SkaterController : ApiController
     {
         private readonly ISkateService service;
-
-        public SkaterController() : this(new SkateService(new SkateSvcData()))
-        {
-        }
 
         public SkaterController(ISkateService service)
         {
