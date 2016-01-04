@@ -3,6 +3,10 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
+using Autofac.Integration.Mvc;
+
+using BuggyWeb.DependencyResolution.Autofac;
+
 namespace BuggyWeb
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -12,8 +16,10 @@ namespace BuggyWeb
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
+            //var container = AutoFacIoc.Configure();
+            //GlobalConfiguration.Configuration.DependencyResolver = new AutoFacContainer(new AutofacDependencyResolver(container));
 
+            AreaRegistration.RegisterAllAreas();
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

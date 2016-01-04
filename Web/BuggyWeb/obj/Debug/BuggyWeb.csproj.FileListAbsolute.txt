@@ -138,3 +138,7 @@ C:\Pancho\Projects\SkateProfile\Web\BuggyWeb\bin\Microsoft.Practices.ServiceLoca
 C:\Pancho\Projects\SkateProfile\Web\BuggyWeb\bin\WebActivator.dll
 C:\Pancho\Projects\SkateProfile\Web\BuggyWeb\bin\Microsoft.Practices.ServiceLocation.pdb
 C:\Pancho\Projects\SkateProfile\Web\BuggyWeb\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Pancho\Projects\SkateProfile\Web\BuggyWeb\bin\Autofac.dll
+C:\Pancho\Projects\SkateProfile\Web\BuggyWeb\bin\Autofac.Integration.Mvc.dll
+C:\Pancho\Projects\SkateProfile\Web\BuggyWeb\bin\Autofac.xml
+C:\Pancho\Projects\SkateProfile\Web\BuggyWeb\bin\Autofac.Integration.Mvc.xml

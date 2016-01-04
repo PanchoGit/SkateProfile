@@ -29,3 +29,14 @@ C:\Pancho\Projects\BuggyOne\ApplicationService\Service\bin\Debug\ServiceInterfac
 C:\Pancho\Projects\BuggyOne\ApplicationService\Service\obj\Debug\ApplicationService.csprojResolveAssemblyReference.cache
 C:\Pancho\Projects\BuggyOne\ApplicationService\Service\obj\Debug\ApplicationService.dll
 C:\Pancho\Projects\BuggyOne\ApplicationService\Service\obj\Debug\ApplicationService.pdb
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\bin\Debug\ApplicationService.dll
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\bin\Debug\ApplicationService.pdb
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\bin\Debug\DataInterface.dll
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\bin\Debug\DataModel.dll
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\bin\Debug\ServiceInterface.dll
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\bin\Debug\DataInterface.pdb
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\bin\Debug\DataModel.pdb
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\bin\Debug\ServiceInterface.pdb
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\obj\Debug\ApplicationService.csprojResolveAssemblyReference.cache
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\obj\Debug\ApplicationService.dll
+C:\Pancho\Projects\SkateProfile\ApplicationService\Service\obj\Debug\ApplicationService.pdb

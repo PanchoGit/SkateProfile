@@ -39,6 +39,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\packages\Autofac.3.5.2\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\..\packages\Autofac.Mvc4.3.1.0\lib\net40\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
@@ -139,15 +145,18 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="DependencyResolution\IoC.cs" />
-    <Compile Include="DependencyResolution\Registries\ServiceRegistry.cs" />
+    <Compile Include="DependencyResolution\Autofac\AutoFacContainer.cs" />
+    <Compile Include="DependencyResolution\Autofac\AutoFacIoc.cs" />
+    <Compile Include="DependencyResolution\Autofac\AutofacScopeContainer.cs" />
+    <Compile Include="DependencyResolution\StructureMap\StructureMapIoC.cs" />
+    <Compile Include="DependencyResolution\StructureMap\Registries\ServiceRegistry.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\StructuremapMvc.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Api\SkaterController.cs" />
     <Compile Include="Controllers\SpawnController.cs" />
-    <Compile Include="DependencyResolution\StructureMapDependencyResolver.cs" />
-    <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
+    <Compile Include="DependencyResolution\StructureMap\StructureMapDependencyResolver.cs" />
+    <Compile Include="DependencyResolution\StructureMap\StructureMapDependencyScope.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

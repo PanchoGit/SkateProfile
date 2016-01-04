@@ -1,7 +1,8 @@
 using System.Web.Http.Dependencies;
+
 using StructureMap;
 
-namespace BuggyWeb.DependencyResolution
+namespace BuggyWeb.DependencyResolution.StructureMap
 {
     public class StructureMapDependencyResolver : StructureMapDependencyScope, IDependencyResolver
     {

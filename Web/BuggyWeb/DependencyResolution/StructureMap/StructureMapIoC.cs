@@ -1,9 +1,9 @@
 ﻿using StructureMap;
 using StructureMap.Graph;
 
-namespace BuggyWeb.DependencyResolution
+namespace BuggyWeb.DependencyResolution.StructureMap
 {
-    public static class IoC
+    public static class StructureMapIoC
     {
         public static void ConfigureStructureMap(IContainer container)
         {
