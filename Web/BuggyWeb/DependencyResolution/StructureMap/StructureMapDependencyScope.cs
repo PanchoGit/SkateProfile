@@ -7,7 +7,7 @@ using Microsoft.Practices.ServiceLocation;
 
 using StructureMap;
 
-namespace BuggyWeb.DependencyResolution.StructureMap
+namespace AppWeb.DependencyResolution.StructureMap
 {
     public class StructureMapDependencyScope : ServiceLocatorImplBase, IDependencyScope
     {

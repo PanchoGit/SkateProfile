@@ -3,7 +3,7 @@ using System.Web.Http;
 
 using ServiceInterface;
 
-namespace BuggyWeb.Controllers.Api
+namespace AppWeb.Controllers.Api
 {
     public class SkaterController : ApiController
     {

@@ -2,7 +2,7 @@
 
 using Autofac.Integration.Mvc;
 
-namespace BuggyWeb.DependencyResolution.Autofac
+namespace AppWeb.DependencyResolution.Autofac
 {
     public class AutoFacContainer : AutofacScopeContainer, IDependencyResolver
     {

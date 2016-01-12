@@ -1,11 +1,11 @@
 using System.Web.Http;
 using System.Web.Mvc;
 using StructureMap;
-using BuggyWeb.DependencyResolution.StructureMap;
+using AppWeb.DependencyResolution.StructureMap;
 
-[assembly: WebActivator.PreApplicationStartMethod(typeof(BuggyWeb.StructuremapMvc), "Start")]
+[assembly: WebActivator.PreApplicationStartMethod(typeof(AppWeb.StructuremapMvc), "Start")]
 
-namespace BuggyWeb
+namespace AppWeb
 {
     public static class StructuremapMvc
     {

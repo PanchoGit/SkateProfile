@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 using ApplicationService;
 
@@ -8,7 +7,7 @@ using Autofac.Integration.Mvc;
 
 using ServiceInterface;
 
-namespace BuggyWeb.DependencyResolution.Autofac
+namespace AppWeb.DependencyResolution.Autofac
 {
     public static class AutoFacIoc
     {
@@ -18,12 +17,15 @@ namespace BuggyWeb.DependencyResolution.Autofac
 
             builder.RegisterControllers(typeof(MvcApplication).Assembly);
 
+            builder.RegisterFilterProvider();
+
+            builder.RegisterSource(new ViewRegistrationSource());
+
+            builder.RegisterModule<AutofacWebTypesModule>();
+
             builder.RegisterType<SkateService>().As<ISkateService>()
                 .WithParameter(new TypedParameter(typeof(SkateSvcData), new SkateSvcData()))
                 .InstancePerHttpRequest();
-
-            builder.RegisterAssemblyModules(typeof(MvcApplication).Assembly);
-            builder.RegisterModule<AutofacWebTypesModule>();
 
             var container = builder.Build();
 

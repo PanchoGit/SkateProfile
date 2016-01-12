@@ -4,7 +4,7 @@ using ServiceInterface;
 
 using StructureMap.Configuration.DSL;
 
-namespace BuggyWeb.DependencyResolution.StructureMap.Registries
+namespace AppWeb.DependencyResolution.StructureMap.Registries
 {
     public class ServiceRegistry : Registry
     {

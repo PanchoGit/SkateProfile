@@ -5,7 +5,7 @@ using System.Web.Http.Dependencies;
 using Autofac;
 using Autofac.Integration.Mvc;
 
-namespace BuggyWeb.DependencyResolution.Autofac
+namespace AppWeb.DependencyResolution.Autofac
 {
     public class AutofacScopeContainer : IDependencyScope
     {

@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0DBBBE0C-C56C-4B54-BEDD-BD0A5B597E06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuggyWeb", "Web\BuggyWeb\BuggyWeb.csproj", "{CCD04607-20AB-436D-A435-4DDA7F769336}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppWeb", "Web\BuggyWeb\AppWeb.csproj", "{CCD04607-20AB-436D-A435-4DDA7F769336}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationService", "ApplicationService", "{3057D959-AC5F-4C73-9895-16093C1B3B60}"
 EndProject

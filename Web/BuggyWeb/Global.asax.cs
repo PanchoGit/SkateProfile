@@ -5,9 +5,9 @@ using System.Web.Routing;
 
 using Autofac.Integration.Mvc;
 
-using BuggyWeb.DependencyResolution.Autofac;
+using AppWeb.DependencyResolution.Autofac;
 
-namespace BuggyWeb
+namespace AppWeb
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801

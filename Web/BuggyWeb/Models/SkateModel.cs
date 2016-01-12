@@ -2,7 +2,7 @@
 
 using DataModel;
 
-namespace BuggyWeb.Models
+namespace AppWeb.Models
 {
     public class SkateModel
     {

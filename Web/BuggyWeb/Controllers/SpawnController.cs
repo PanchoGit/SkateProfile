@@ -1,11 +1,11 @@
 ﻿using System.Web.Mvc;
 using ApplicationService;
 
-using BuggyWeb.Models;
+using AppWeb.Models;
 
 using ServiceInterface;
 
-namespace BuggyWeb.Controllers
+namespace AppWeb.Controllers
 {
     public class SpawnController : Controller
     {

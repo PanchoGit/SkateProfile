@@ -1,7 +1,7 @@
 ﻿using StructureMap;
 using StructureMap.Graph;
 
-namespace BuggyWeb.DependencyResolution.StructureMap
+namespace AppWeb.DependencyResolution.StructureMap
 {
     public static class StructureMapIoC
     {
